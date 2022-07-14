@@ -1,15 +1,20 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
- */
+   * main - check the code for Holberton School students.
+    *
+     * Return: Always 0.
+      */
 int main(void)
 {
-  char *str;
-
-  str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-  _puts(str);
-  return (0);
+	int r;
+	
+	r = _islower('H');
+	_putchar(r + '0');
+	r = _islower('o');
+	_putchar(r + '0');
+	r = _islower(108);
+	_putchar(r + '0');
+	_putchar('\n');
+	return (0);
 }
